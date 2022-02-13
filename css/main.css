@@ -1,0 +1,79 @@
+body {
+  background-color: #222831;
+  font-family: 'Nanum Gothic', sans-serif;
+}
+
+button,a{
+  all: unset;
+}
+
+.root {
+  height: 100vh;
+  background-color: #222831;
+  margin: 0;
+}
+.root .space {
+  height: 350px;
+}
+.root .container {
+  height: 400px;
+}
+.root .search {
+  display: flex;
+  justify-content: center;
+  color: #ffffff;
+  font-size: 50px;
+  font-weight: 600;
+  padding: 70px;
+}
+.root .search .box {
+  display: flex;
+  flex-direction: column;
+}
+.root .search .box .search-bar {
+  display: flex;
+  flex-direction: row;
+}
+.root .search .box .search-bar .front-bar {
+  height: 91px;
+  line-height: 91px;
+  width: 100px;
+  margin: 50px auto auto auto;
+  background-color: #e9ecef;
+  color: #222831;
+  text-align: center;
+  border-radius: 15px 0 0 15px;
+}
+.search-box {
+  width: 400px;
+  height: 90px;
+  margin: 50px auto auto auto;
+  border: none;
+}
+.root .search .box .search-bar .click-bar {
+  height: 91px;
+  line-height: 91px;
+  width: 200px;
+  margin: 50px auto auto auto;
+  color: #ffffff;
+  text-align: center;
+  font-weight: 400;
+  font-size: 36px;
+  background-color: #29a19c;
+  transition: .4s;
+  /* display: block; */
+  cursor: pointer;
+  border-radius: 0 15px 15px 0;
+} 
+.root .search .box .search-bar .click-bar:hover {
+  background-color: wheat;
+  color: #222831;
+}
+.root .search .box .click-bar .search-button-box {
+
+}
+.root .search .box .search-bar .click-bar .search-button-box .search-button {
+  background-color: #29a19c;
+  border: none;
+
+}
